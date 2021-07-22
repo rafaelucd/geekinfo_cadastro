@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Landing Page - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+</head>
+<body>
+   <div class="screen">
+
+        <div class="leftside">
+            <div class="hero__picture hero__picture">
+                <video autoplay="" loop="" muted="" playsinline="" style="pointer-events: none;" poster="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.jpeg">
+                   <source data-src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.mp4" type="video/mp4" src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.mp4">
+                   <source data-src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.webm" type="video/webm" src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.webm">
+                   <source data-src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.ogm" type="video/ogg" src="https://vtex.com/wp-content/themes/VTEXTheme/v2/images/pages/homepage/video-hero.ogm">
+                </video>
+             </div>
+        </div>
+        
+      <div class="rightside">
+         <form method="POST" action="cadastro.php" class="gama">
+           <h1>Cadastra-se</h1>
+
+           <label>
+               Nome:
+               <input type="text" name="name" data-rules="required"/>
+           </label>
+           <label>
+            E-mail:
+              <input type="text" name="email" data-rules="required"/>
+          </label>
+          <label>
+            Senha
+             <input type="password" name="password"/>
+         </label>
+         <label>
+            <input type="submit" value="Cadastrar"/>
+        </label>
+
+        <div>
+            Já tem uma conta ? <a href="">Faça o Login</a>
+        </div>
+
+ 
+
+         </form>
+      </div>
+
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
